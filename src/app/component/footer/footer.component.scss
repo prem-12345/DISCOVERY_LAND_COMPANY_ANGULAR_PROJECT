@@ -1,0 +1,49 @@
+.footer-container {
+    background-color: #161F1E;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 101vw;
+    height: 50vh;
+    justify-content: space-around;
+    margin: -1%;
+}
+
+.footer-item-logo {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 8%;
+}
+
+.footer-items {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#footer-logo {
+    height: 10%;
+    width: 10%;
+}
+
+#footer-links {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    flex-wrap: wrap;
+}
+
+.links {
+    margin-bottom: 50px;
+}
+
+.copyright {
+    opacity: 0.5;
+    width: 50%;
+    position: relative;
+    left: 9%;
+    bottom: 10%;
+}
+
+.contact-info, .link, .page {
+    margin-bottom: 10px;
+}
