@@ -1,0 +1,27 @@
+body,html {
+    height: 100vh;
+    margin: 0;
+}
+
+.header-container{
+    height: 100vh;
+    width: 100vw;
+}
+
+.background-video {
+    width: 101%;
+    height: 100%;
+    object-fit: cover;
+    margin: -1%;
+
+}
+
+.text {
+    width: 70%;
+    margin-left: 20%;
+    color: white;
+    font-size: 75px;
+    position: relative;
+    bottom: 70%;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
