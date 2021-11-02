@@ -24,3 +24,56 @@ body,html {
     bottom: 70%;
     font-family: 'Open Sans Condensed', sans-serif;
 }
+
+.section-container {
+    padding-top: 200px;
+    padding-left: 150px;
+    padding-right: 220px;
+    display: flex;
+    margin-top: -788px;
+    // padding: 40% 32% 0 14%;
+    background-image: url(../home/Home_bg.jpg) ;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: center;
+    justify-content: space-between;
+    opacity: 0.7;
+    margin-top: -703px;
+  }
+  
+ .section-container .sec-img1 p {
+    color: #000;
+    padding-left: 100px;
+    padding-right: 350px;
+    padding-top: 100px;
+  }
+  
+  .section-container .sec-img1 .heading {
+    // font-size: xx-large;
+    opacity: 80%;
+    font-size: 2em;
+    line-height: 1.2;
+    font-size: xx-large;
+  }
+
+  .heading{
+    font-size: xxx-large;
+    margin-top: -60px;
+  }
+  
+  .section-container .sec-img1 .content {
+    font-size: 2em;
+    line-height: 1.5;
+    opacity: 60%;
+    padding-top: 50px;
+    margin-right: -320px;
+  }
+  
+  .sec-img2 img {
+    position: relative;
+    float: left;
+    margin-top: -170px;
+    margin-left: 140px;
+    width: 450px;
+  }
+  
