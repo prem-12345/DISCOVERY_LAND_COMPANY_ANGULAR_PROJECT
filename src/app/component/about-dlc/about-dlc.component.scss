@@ -1,0 +1,163 @@
+
+.dlc-container{
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    background-position: center;
+}
+
+.text1 {
+    width: 70%;
+    margin-left: 20%;
+    color: #FFFFFF;
+    font-size: 57px;
+    position: absolute;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    top: 25%;
+  
+}
+
+.text2{
+    margin-left: 132px;
+    margin-top: -820px;
+    color: #FFFFFFA6;
+    font-size: 19px;
+}
+
+.dlc-para{
+    margin-top: 200px;
+    text-align: center;
+    font-style: normal;
+    font-size: xx-large;
+    line-height: 50px;
+    opacity: 100%;
+    color: #111111;
+    font-weight: 1;
+    word-spacing: 2px;
+}
+
+.parent-child-container{
+        height: 100vh;
+        width: 100vw;
+}
+    
+.parent-child-heading{
+        margin-left: 160px;
+        margin-top: 200px;
+        font-size: 40px;
+        font-weight: 2;
+}
+    
+.information1{
+        margin-left: 160px;
+        text-align: initial;
+        color: black;
+        opacity: 60%;
+        line-height: 31px;
+}
+    
+.information2{
+        margin-left: 160px;
+        text-align: initial;
+        color: black;
+        opacity: 60%;
+        line-height: 31px;
+}
+    
+.dlc-slider-container{
+        height: 80%;
+        width: 100%;
+        margin-top: 70px;
+}
+    
+.dlc-title {
+        opacity: 80%;
+        font-size: 40px;
+        padding-left: 187px;
+        margin-top: 900px;
+        font-weight: 1;
+}
+    
+.disc-design-container{
+        height: 100vh;
+        width: 100vw;
+}
+    
+.disc-design-info{
+        margin-top: 230px;
+        margin-left: 700px;
+        
+}
+    
+.disc-heading{
+        font-size: 40px;
+        font-weight: 1;
+}
+    
+.disc-paragraph{
+        line-height: 1.7;
+        opacity: 60%;
+}
+    
+.dlc-section-container {
+        padding-top: 200px;
+        padding-left: 150px;
+        padding-right: 220px;
+        display: flex;
+        margin-top: -788px;
+        // padding: 40% 32% 0 14%;
+        justify-content: space-between;
+        margin-top: -70px;
+}
+      
+.dlc-section-container .dlc-sec-img1 p {
+        color: #000;
+        padding-left: 100px;
+        padding-right: 350px;
+        padding-top: 100px;
+}
+      
+.dlc-heading{
+        font-size: 40px;
+        margin-top: 92px;
+        font-weight: 1;
+}
+    
+.dlc-content{
+          line-height: 1.0;
+          opacity: 60%;
+}
+    
+.dlc-sec-img1{
+        margin-right: -80px;
+}
+    
+.dlc-sec-img2 img {
+        position: relative;
+        float: left;
+        margin-top: -158px;
+        margin-left: 140px;
+        width: 450px;
+}
+
+.dlc-text{
+        margin-top: -305px;
+        text-align: center;
+        color: white;
+        font-size: 50px;
+        font-weight: 1;
+        font-family: system-ui;
+}
+    
+.dlc-btn{
+        margin-top: -305px;
+        margin-left: 500px;
+        margin-top: 57px;
+        margin-left: 600px;
+        padding: 22px 55px;
+        background-color:black;
+        color: #fff;
+        border:2px solid white;
+        cursor: pointer;
+        opacity: 40%;
+}

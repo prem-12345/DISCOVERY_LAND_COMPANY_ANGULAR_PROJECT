@@ -6,9 +6,12 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './component/header/header.component';
 import { FooterComponent } from './component/footer/footer.component';
 import { HomeComponent } from './component/home/home.component';
-import {MatButtonModule} from '@angular/material/button';
+import { MatButtonModule } from '@angular/material/button';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import {MatIconModule} from '@angular/material/icon';
+import { MatIconModule } from '@angular/material/icon';
+import { NgImageSliderModule } from 'ng-image-slider';
+import {MatProgressBarModule} from '@angular/material/progress-bar';
+import { AboutDlcComponent } from './component/about-dlc/about-dlc.component';
 
 @NgModule({
   declarations: [
@@ -16,13 +19,16 @@ import {MatIconModule} from '@angular/material/icon';
     HeaderComponent,
     FooterComponent,
     HomeComponent,
+    AboutDlcComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     MatButtonModule,
     BrowserAnimationsModule,
-    MatIconModule
+    MatIconModule,
+    NgImageSliderModule,
+    MatProgressBarModule
   ],
   providers: [],
   bootstrap: [AppComponent]

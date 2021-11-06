@@ -17,21 +17,27 @@ body,html {
     flex-wrap: wrap;
 }
     
-.header-logo{     
+.headerlogo{     
     width: 13%;
     height: 13%;
     display: flex;
     flex-wrap: wrap;
+    margin-top: 18px;
+    padding: 1px 0px;
+    color: #000000;
+    font: 15.9421px messina-sans;
+    margin-left: 70px;
 }
 
 .nav-items {    
     display: flex;
     flex-direction: row;   
     flex-wrap: wrap;
+    margin-left: 80px;
 }
 
 .nav-link {
-    color: white;
+    color: #fff;
     display: flex;
     align-items: flex-end;
     margin: 10px;   
@@ -44,4 +50,14 @@ a{
     color: white;
     font-size: 14px;
     font-family: 'Open Sans Condensed', sans-serif;
+    margin-left: 44px;
  }
+
+ .line-animate{
+     color:white;
+     height: 1px;
+     width: 60px;
+     margin-top: 10px;
+     margin-left: 400px;
+ }
+

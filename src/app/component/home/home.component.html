@@ -5,7 +5,7 @@
             type="video/mp4">
     </video>
     <div class="text">
-        <h3>Discover <br>Your World</h3>
+        <h3 style="font-weight: 100">Discover <br>your world</h3>
     </div>
 </div>
 <app-header></app-header>
@@ -25,7 +25,7 @@
         </div>
     </div>
     <div class="sec-img1">
-        <img src="../../../assets/Home_1.jpg" alt="404" width="412px" height="580px" >
+        <img src="../../../assets/Home_1.jpg" alt="404" width="412px" height="580px">
 
     </div>
 </div>
@@ -33,3 +33,49 @@
 <div class="sec-img2">
     <img src="../../../assets/Home_2.jpg" alt="404" width="375.3px" height="243.94px">
 </div>
+<div class="title">Explore <br> our worlds </div>
+<div class="slider-container">
+    <ng-image-slider #nav [images]="imageObject" [infinite]="true" [autoSlide]="0.1" [animationSpeed]="5"
+        [imageSize]="{width: 454, height: 552 }" [showArrow]="false" slideImage="1"></ng-image-slider>
+</div>
+
+<div class="lands-discovery-container">
+    <div class="lands-discovery-info">
+        <div class="lands-discovery-heading">Lands of <div>Discovery</div>
+        </div>
+        <div class="lands-discovery-para">A world away from the day-to-day. Your escape. Your haven. Your world. <div>
+                Explore the map below and take a journey to our communities. </div>
+        </div>
+        <div class="lands-discovery-links">
+            <div class="link">North America & Caribbean</div>
+            <div class="link">Hawaii</div>
+            <div class="link">Europe</div>
+        </div>
+    </div>
+</div>
+
+<div class="earth-container">
+    <img class="earth-background" src="../../../assets/earth-images/globe-usa.jpg" alt="">
+    <div class="img-container">
+        <div class="img-content" id="img-experience">
+            <div class="img-txt"> Experiences </div>
+            <div class="img-btn-container">
+                <a class="img-btn"> </a>
+            </div>
+
+        </div>
+        <div class="img-content" id="img-lifestyle">
+            <div class="img-txt">Lifestyle</div>
+            <div class="img-btn-container">
+                <a class="img-btn"></a>
+            </div>
+        </div>
+        <div class="img-content" id="img-wellness">
+            <div class="img-txt">Wellness</div>
+            <div class="img-btn-container">
+                <a class="img-btn"></a>
+            </div>
+        </div>
+    </div>
+</div>
+<app-footer></app-footer>

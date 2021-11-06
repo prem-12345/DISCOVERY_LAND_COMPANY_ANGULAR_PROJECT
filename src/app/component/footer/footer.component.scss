@@ -4,9 +4,10 @@
     flex-direction: column;
     color: white;
     width: 101vw;
-    height: 50vh;
+    height: 70vh;
     justify-content: space-around;
     margin: -1%;
+    margin-top: 693px;
 }
 
 .footer-item-logo {
@@ -23,6 +24,7 @@
 #footer-logo {
     height: 10%;
     width: 10%;
+    margin-left: 130px
 }
 
 #footer-links {
@@ -30,10 +32,12 @@
     justify-content: space-around;
     width: 60%;
     flex-wrap: wrap;
+    margin-left: 300px;
 }
 
 .links {
     margin-bottom: 50px;
+    line-height: 1.5;
 }
 
 .copyright {
@@ -42,6 +46,7 @@
     position: relative;
     left: 9%;
     bottom: 10%;
+    font-size: 13px;
 }
 
 .contact-info, .link, .page {
