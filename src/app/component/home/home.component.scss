@@ -27,6 +27,17 @@ body,html {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+.text2{
+    width: 70%;
+    margin-left: 14%;
+    color: #FFFFFFA6;
+    font-size: 75px;
+    position: relative;
+    bottom: 66%;
+    font: 19px gt-sectra;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 50;
+}
 .section-container {
     padding-top: 200px;
     padding-left: 150px;
@@ -186,11 +197,12 @@ body,html {
    margin-top: 31px;
 }
 
-// .img-btn, .img-btn:hover {
-//     text-decoration: none;
-//     color: white;
-//     font-size: 2rem;
-// }
+.img-btn, .img-btn:hover {
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    margin-top: 7px;
+}
 
 .slider-container{
   height: 80%;
@@ -204,4 +216,86 @@ body,html {
   padding-left: 187px;
   margin-top: 160px;
   font-weight: 1;
+}
+
+// .arrow{
+//   position: absolute;
+//   // text-align: center;
+//   top: 370px;
+//   left: 160px;
+//   border-color: white;
+//   // background-color: white;
+//   color: black;
+//   font-size: 52px;
+//   // letter-spacing: 4px;
+//   border-radius: 85px;
+//   opacity: 0.5;
+//   padding-left: 15px;
+//   cursor: pointer;
+// }
+
+#bg_card{
+  height: 35%;
+  width: 50%;
+  background-color: black;
+  position: absolute;
+  right: 0;
+  z-index: 20;
+  padding-top: 220px;
+  top: 2920px;
+  left: 50%;
+}
+#card-img{
+  height: 500px;
+  width: 270px;
+  position: absolute;
+  padding-left: 1030px;
+  z-index: 30;
+  top: 2860px;
+}
+.arrow {
+  color: white;
+  padding:30px;
+}
+.hub-air{
+  color: white;
+  padding-left:35px;
+
+}
+
+.card-title{
+  color: white;
+  padding:35px;
+  font-size: 40px;
+  margin-left: -20px;
+  font-family: serif;
+}
+.card-sub{
+  color: white;
+  padding-top:100px;
+  padding-left: 35px;
+  font-size: 20px;
+  margin-left: -20px;
+  font-family: serif;
+  opacity: 0.6;
+}
+.material-icons{
+  padding-right:25px;
+  font-size: 30px;
+}
+
+.units{
+  color: white;
+  margin-top: 2px;
+  word-spacing: 15px;
+  margin-left: 34px;
+  font-size: smaller;
+}
+
+.room-text{
+  margin-left: 46px;
+  margin-top: -34px;
+  font-size: 15px;
+  opacity: 0.5;
+  word-spacing: 2px;
 }

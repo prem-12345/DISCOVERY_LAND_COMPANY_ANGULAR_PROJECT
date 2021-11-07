@@ -1,0 +1,32 @@
+
+.section-container {
+    background-color: black;
+    width: 100vw;
+    height: 400vh;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+    height: 290px;
+    padding: 10px;
+}
+
+.card-img {
+    width: 295px;
+    height: 154px;
+    margin-top: 240px;
+}
+
+.card-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-desc {
+    color: #777777;
+}

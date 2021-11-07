@@ -12,6 +12,9 @@ import { MatIconModule } from '@angular/material/icon';
 import { NgImageSliderModule } from 'ng-image-slider';
 import {MatProgressBarModule} from '@angular/material/progress-bar';
 import { AboutDlcComponent } from './component/about-dlc/about-dlc.component';
+import {MatCardModule} from '@angular/material/card';
+import { OurWorldsComponent } from './component/our-worlds/our-worlds.component';
+import { GalleryComponent } from './component/gallery/gallery.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +23,8 @@ import { AboutDlcComponent } from './component/about-dlc/about-dlc.component';
     FooterComponent,
     HomeComponent,
     AboutDlcComponent,
+    OurWorldsComponent,
+    GalleryComponent,
   ],
   imports: [
     BrowserModule,
@@ -28,7 +33,8 @@ import { AboutDlcComponent } from './component/about-dlc/about-dlc.component';
     BrowserAnimationsModule,
     MatIconModule,
     NgImageSliderModule,
-    MatProgressBarModule
+    MatProgressBarModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]

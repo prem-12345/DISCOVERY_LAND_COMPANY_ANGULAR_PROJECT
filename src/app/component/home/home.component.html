@@ -7,6 +7,9 @@
     <div class="text">
         <h3 style="font-weight: 100">Discover <br>your world</h3>
     </div>
+    <div class="text2">
+        <h5>Scroll to explore</h5>
+    </div>
 </div>
 <app-header></app-header>
 <div class="section-container">
@@ -54,29 +57,56 @@
         </div>
     </div>
 </div>
+
 <div class="earth-container">
+    <section class="earth-card-section">
+        <div>
+            <img id="card-img" src="../../../assets/home-card-img.jpeg" alt="">   
+        </div>
+        <mat-card id="bg_card">
+            <div class="arrow" style="margin-top: -210px;">
+                <span class="material-icons">arrow_back</span>
+                <span class="material-icons">arrow_forward</span>
+            </div>
+                <div class="hub-air">
+                <span class="material-icons">sunny</span>
+                <span class="material-icons">air</span>
+                <span class="material-icons">explore</span>
+                </div>
+                <div class="units">40*F 3.60mph 13*</div>
+               <div class="card-title" style="margin-top: -41px;">
+                <mat-card-subtitle class="card-sub" >Nashville, Tennessee</mat-card-subtitle>
+                <mat-card-title class="card-title" >Troubadour</mat-card-title>
+                <div>
+                    <mat-icon>room</mat-icon>
+                    <div class="room-text">35.828904*N / -86.679158* W</div>
+                </div>
+            </div>
+        </mat-card>
+    </section>
     <img class="earth-background" src="../../../assets/earth-images/globe-usa.jpg" alt="">
     <div class="img-container">
         <div class="img-content" id="img-experience">
             <div class="img-txt"> Experiences </div>
             <div class="img-btn-container">
-                <a class="img-btn"> </a>
+                <a class="img-btn">&#8594;</a>
             </div>
 
         </div>
         <div class="img-content" id="img-lifestyle">
             <div class="img-txt">Lifestyle</div>
             <div class="img-btn-container">
-                <a class="img-btn"></a>
+                <a class="img-btn">&#8594;</a>
             </div>
         </div>
         <div class="img-content" id="img-wellness">
             <div class="img-txt">Wellness</div>
             <div class="img-btn-container">
-                <a class="img-btn"></a>
+                <a class="img-btn">&#8594;</a>
             </div>
         </div>
     </div>
 </div>
+
 
 <app-footer></app-footer>
