@@ -6,6 +6,7 @@ import { GalleryComponent } from './component/gallery/gallery.component';
 import { HeaderComponent } from './component/header/header.component';
 import { HomeComponent } from './component/home/home.component';
 import { OurWorldsComponent } from './component/our-worlds/our-worlds.component';
+import { PressComponent } from './component/press/press.component';
 
 
 
@@ -15,7 +16,8 @@ const routes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'about-dlc', component: AboutDlcComponent },
   { path: 'our-worlds', component: OurWorldsComponent },
-  {path: 'gallery', component: GalleryComponent}
+  {path: 'gallery', component: GalleryComponent},
+  {path: 'press' , component: PressComponent}
 ];
 
 @NgModule({

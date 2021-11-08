@@ -8,23 +8,98 @@
     flex-wrap: wrap;
 }
 
-.card {
+.card1 {
+    margin-top: -10px;
     display: flex;
     width: 25%;
     flex-direction: column;
     height: 290px;
     padding: 10px;
+    margin-left: 29px;
 }
 
-.card-img {
+.card2{
+    margin-top: -10px;
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+    height: 290px;
+    padding: 10px;
+    margin-left: -82px;
+}
+
+.card3{
+    margin-top: -10px;
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+    height: 290px;
+    padding: 10px;
+    margin-left: -82px;
+}
+
+.card4{
+    margin-top: -10px;
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+    height: 290px;
+    padding: 10px;
+    margin-left: -82px;
+}
+
+.card-heading{
+    margin-left: 0px;
+}
+
+.card-img-sec1{
     width: 295px;
     height: 154px;
     margin-top: 240px;
 }
 
+.card-img-sec2{
+    width: 295px;
+    height: 154px;
+    margin-top: 130px;
+}
+
+.card-img-sec3{
+    width: 295px;
+    height: 154px;
+    margin-top: 15px;
+}
+
+.card-img-sec4{
+    width: 295px;
+    height: 154px;
+    margin-top: -100px;
+}
+
+.card-img-sec5{
+    width: 295px;
+    height: 154px;
+    margin-top: -215px;
+}
+
+.card-img-sec6{
+    width: 295px;
+    height: 154px;
+    margin-top: -330px;
+}
+
+.card-img-sec7{
+    width: 295px;
+    height: 154px;
+    margin-top: -445px;
+}
+
 .card-info {
     display: flex;
     flex-direction: column;
+    color: white;
+    margin-top: 15px;
+    
 }
 
 .card-desc {

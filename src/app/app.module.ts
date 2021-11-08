@@ -15,6 +15,7 @@ import { AboutDlcComponent } from './component/about-dlc/about-dlc.component';
 import {MatCardModule} from '@angular/material/card';
 import { OurWorldsComponent } from './component/our-worlds/our-worlds.component';
 import { GalleryComponent } from './component/gallery/gallery.component';
+import { PressComponent } from './component/press/press.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { GalleryComponent } from './component/gallery/gallery.component';
     AboutDlcComponent,
     OurWorldsComponent,
     GalleryComponent,
+    PressComponent,
   ],
   imports: [
     BrowserModule,
