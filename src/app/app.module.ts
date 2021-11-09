@@ -16,6 +16,7 @@ import {MatCardModule} from '@angular/material/card';
 import { OurWorldsComponent } from './component/our-worlds/our-worlds.component';
 import { GalleryComponent } from './component/gallery/gallery.component';
 import { PressComponent } from './component/press/press.component';
+import { ExperiencesComponent } from './component/experiences/experiences.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { PressComponent } from './component/press/press.component';
     OurWorldsComponent,
     GalleryComponent,
     PressComponent,
+    ExperiencesComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),

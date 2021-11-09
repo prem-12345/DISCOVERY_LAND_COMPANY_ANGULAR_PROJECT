@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AboutDlcComponent } from './component/about-dlc/about-dlc.component';
+import { ExperiencesComponent } from './component/experiences/experiences.component';
 import { FooterComponent } from './component/footer/footer.component';
 import { GalleryComponent } from './component/gallery/gallery.component';
 import { HeaderComponent } from './component/header/header.component';
@@ -17,7 +18,8 @@ const routes: Routes = [
   { path: 'about-dlc', component: AboutDlcComponent },
   { path: 'our-worlds', component: OurWorldsComponent },
   {path: 'gallery', component: GalleryComponent},
-  {path: 'press' , component: PressComponent}
+  {path: 'press' , component: PressComponent},
+  {path: 'experiences' , component: ExperiencesComponent}
 ];
 
 @NgModule({
