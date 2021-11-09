@@ -29,7 +29,7 @@ import { PressComponent } from './component/press/press.component';
     PressComponent,
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     AppRoutingModule,
     MatButtonModule,
     BrowserAnimationsModule,

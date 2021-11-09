@@ -23,16 +23,60 @@
 }
 
 .press-sec1{
-    height: 200vh;
+    height: 165vh;
     width: 100vw;
-    background-color:white ;
+    background-color:#f3f3f3;
     margin-top: -695px;
 }
 
 .press-text{
     color: black;
     position: absolute;
-    margin-top: 92px;
+    margin-top: 70px;
     margin-left: 150px;
-    font-size: 40px;
+    font-size: 35px;
+    font-family: auto;
+}
+
+.white-card{
+    height: 593px;
+    width: 422px;
+    background-color:#fff;
+    position: relative;
+    padding: 3rem;
+    z-index: 2;
+    left: 56%;
+    margin-top: -745px;
+}
+
+.card-text1{
+    opacity: 70%;
+}
+
+.card-heading{
+    font-size: 34px;
+    margin-top: 20px;
+    font-family: initial;
+    opacity: 90%;
+   
+}
+
+.card-content{
+    font-size: 15px;
+    margin-top: 25px;
+    line-height: 2.3;
+    opacity: 60%;
+}
+
+.press-btn{
+    background-color: white;
+    border: 1px solid black ;
+    color: black;
+    padding: 20px 50px ;
+    text-align: center;
+    font-size: 13px;
+    margin: 4px 2px;
+    opacity: 0.5;
+    margin-top: 55px;
+
 }
