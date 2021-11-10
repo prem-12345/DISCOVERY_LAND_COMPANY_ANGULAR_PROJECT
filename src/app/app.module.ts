@@ -10,13 +10,14 @@ import { MatButtonModule } from '@angular/material/button';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatIconModule } from '@angular/material/icon';
 import { NgImageSliderModule } from 'ng-image-slider';
-import {MatProgressBarModule} from '@angular/material/progress-bar';
+import { MatProgressBarModule } from '@angular/material/progress-bar';
 import { AboutDlcComponent } from './component/about-dlc/about-dlc.component';
-import {MatCardModule} from '@angular/material/card';
+import { MatCardModule } from '@angular/material/card';
 import { OurWorldsComponent } from './component/our-worlds/our-worlds.component';
 import { GalleryComponent } from './component/gallery/gallery.component';
 import { PressComponent } from './component/press/press.component';
 import { ExperiencesComponent } from './component/experiences/experiences.component';
+
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { ExperiencesComponent } from './component/experiences/experiences.compon
     OurWorldsComponent,
     GalleryComponent,
     PressComponent,
-    ExperiencesComponent
+    ExperiencesComponent,
+
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),

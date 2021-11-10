@@ -10,22 +10,21 @@ import { OurWorldsComponent } from './component/our-worlds/our-worlds.component'
 import { PressComponent } from './component/press/press.component';
 
 
-
 const routes: Routes = [
   { path: 'header', component: HeaderComponent },
   { path: 'footer', component: FooterComponent },
   { path: 'home', component: HomeComponent },
   { path: 'about-dlc', component: AboutDlcComponent },
   { path: 'our-worlds', component: OurWorldsComponent },
-  {path: 'gallery', component: GalleryComponent},
-  {path: 'press' , component: PressComponent},
-  {path: 'experiences' , component: ExperiencesComponent}
+  { path: 'gallery', component: GalleryComponent },
+  { path: 'press', component: PressComponent },
+  { path: 'experiences', component: ExperiencesComponent },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes, {
     initialNavigation: 'enabled'
-})],
+  })],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

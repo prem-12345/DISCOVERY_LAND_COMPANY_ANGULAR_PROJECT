@@ -12,13 +12,30 @@
                 <li class="nav-link"><a href="http://localhost:4200/press">Press</a></li>
             </ul>
         </nav>
-        <div><mat-icon style="color: white; height: 25px; width: 25px ; margin: 29px; margin-top: 24px;">menu</mat-icon></div>
+        <div class="menu-icon">
+            <mat-icon (click)="clickMenu()">menu</mat-icon>
+        </div>
+        <div *ngIf="display">
+            <div class="overlay-content">
+                <div class="headerlogo1">
+                    <img src="./assets/header/logo-discoveryland-title.png" alt="" width="153.02vw" height="36.27vh">
+                </div>
+                <div class="close-btn">
+                    <button (click)="closeMenu()" style="color: white; background-color: black; border: none;">
+                        <h1>X</h1>
+                    </button>
+                </div>
+                <div class="information">
+                    <div class="data">Magazine</div>
+                    <div class="data">Company</div>
+                    <div class="data">Foundation</div>
+                    <div class="data">Careers</div>
+                    <div class="data">Contact</div>
+                </div>
+            </div>
+        </div>
     </div>
     <!-- <div>
         <mat-progress-bar  class="line-animate" mode="indeterminate"></mat-progress-bar>
     </div> -->
-        
 </div>
-
-
-

@@ -218,22 +218,6 @@ body,html {
   font-weight: 1;
 }
 
-// .arrow{
-//   position: absolute;
-//   // text-align: center;
-//   top: 370px;
-//   left: 160px;
-//   border-color: white;
-//   // background-color: white;
-//   color: black;
-//   font-size: 52px;
-//   // letter-spacing: 4px;
-//   border-radius: 85px;
-//   opacity: 0.5;
-//   padding-left: 15px;
-//   cursor: pointer;
-// }
-
 #bg_card{
   height: 35%;
   width: 50%;
@@ -298,4 +282,64 @@ body,html {
   font-size: 15px;
   opacity: 0.5;
   word-spacing: 2px;
+}
+
+.button{
+  margin-top: -41px;
+  width: 50px;
+  height: 27px;
+  opacity: 0;
+}
+
+.background-video1 {
+  width: 101%;
+  height: 93vh;
+  object-fit: cover;
+  margin: -1%;
+  filter: brightness(0.5);
+
+}
+
+.contain1{
+  width: 101%;
+  height: 93vh;
+}
+
+.info1{
+    font-size: 17px;
+    line-height: 2;
+    font-family: ui-serif;
+    color:white;
+    margin-top: -333px; 
+    position: absolute; 
+    margin-left: 130px;
+}
+
+.head1{
+  color: white;
+  font-size: 40px;
+  margin-top: -415px; 
+  margin-left: 130px; 
+  font-size: 40px; 
+  position: absolute;
+}
+
+.explore-button{
+  margin-top: -110px; 
+  margin-left: 130px; 
+  position: absolute;  
+  padding: 22px 55px;
+  background-color:black; 
+  color: #fff; 
+  border:0px solid white; 
+  cursor: pointer;
+  opacity: 40%;
+}
+
+.close-btn{
+  color: white;
+  position: absolute;
+  margin-top: -580px;
+  margin-left: 1250px;
+  background-color: black;
 }

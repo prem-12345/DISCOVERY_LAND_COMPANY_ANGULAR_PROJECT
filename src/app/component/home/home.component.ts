@@ -86,4 +86,42 @@ export class HomeComponent  {
     }
     ];
 
+    displayImage: any = true;
+    displayVedio1: any= false;
+    displayVedio2: any= false;
+    displayVedio3: any= false;
+
+    image1Click(){
+        this.displayImage= false;
+        this.displayVedio1= true;
+    }
+
+    image2Click(){
+        this.displayImage= false;
+        this.displayVedio2= true;
+    }
+
+    image3Click(){
+        this.displayImage= false;
+        this.displayVedio3= true;
+    }
+
+    closeVedio1(){
+        this.displayVedio1= false;
+        this.displayImage= true;
+    }
+
+    closeVedio2(){
+        this.displayImage= true;
+        this.displayVedio2= false;
+    }
+
+    closeVedio3(){
+        this.displayImage= true;
+        this.displayVedio3= false;
+    }
+
+
+
+
 }

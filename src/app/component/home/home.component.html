@@ -85,28 +85,94 @@
         </mat-card>
     </section>
     <img class="earth-background" src="../../../assets/earth-images/globe-usa.jpg" alt="">
-    <div class="img-container">
-        <div class="img-content" id="img-experience">
-            <div class="img-txt"> Experiences </div>
-            <div class="img-btn-container">
-                <a class="img-btn">&#8594;</a>
-            </div>
 
-        </div>
-        <div class="img-content" id="img-lifestyle">
-            <div class="img-txt">Lifestyle</div>
-            <div class="img-btn-container">
-                <a class="img-btn">&#8594;</a>
+    <div *ngIf="displayImage">
+        <div class="img-container">
+            <div class="img-content" id="img-experience">
+                <div class="img-txt"> Experiences </div>
+                <div class="img-btn-container">
+                    <a class="img-btn">&#8594;</a>
+                </div>
+                <button class="button" (click)="image1Click()"></button>
             </div>
-        </div>
-        <div class="img-content" id="img-wellness">
-            <div class="img-txt">Wellness</div>
-            <div class="img-btn-container">
-                <a class="img-btn">&#8594;</a>
+            <div class="img-content" id="img-lifestyle">
+                <div class="img-txt">Lifestyle</div>
+                <div class="img-btn-container">
+                    <a class="img-btn">&#8594;</a>
+                </div>
+                <button class="button" (click)="image2Click()"></button>
+            </div>
+            <div class="img-content" id="img-wellness">
+                <div class="img-txt">Wellness</div>
+                <div class="img-btn-container">
+                    <a class="img-btn">&#8594;</a>
+                </div>
+                <button class="button" (click)="image3Click()"></button>
             </div>
         </div>
     </div>
-</div>
 
+    <div *ngIf="displayVedio1">
+        <div class="contain1">
+            <video autoplay  muted loop class="background-video1">
+                <source
+                    src="https://dxaurk9yhilm4.cloudfront.net/experiences_190722_093236.mp4?mtime=20190722023236"
+                    type="video/mp4">
+            </video>
+            <div class="head1">Experiences</div>
+            <div class="info1">
+                Experience the ultimate round of golf on championship <br> courses designed by the worlds most highly acclaimed <br> architects or take a thrilling adventure with limitless<br> activities for everyone to enjoy.
+            </div>
+            <div class="explore-button">
+                <button>Explore</button>
+            </div>
+            <div class="close-btn">
+                <button (click)="closeVedio1()">X</button>
+            </div>
+        </div>
+    </div>
+
+    <div *ngIf="displayVedio2">
+        <div class="contain1">
+            <video autoplay  muted loop class="background-video1">
+                <source
+                    src="https://dxaurk9yhilm4.cloudfront.net/lifestyle.mp4?mtime=20190609070318"
+                    type="video/mp4">
+            </video>
+            <div class="head1">Life style</div>
+            <div class="info1">
+                Relish the very best times of your life with the ones you <br> love in our bespoke communities that cater to a family <br> oriented lifestyle through unparalleled amenties and <br> inspired experiences.
+            </div>
+            <div class="explore-button">
+                <button>Explore</button>
+            </div>
+            <div class="close-btn">
+                <button (click)="closeVedio2()">X</button>
+            </div>
+        </div>
+    </div>
+
+    <div *ngIf="displayVedio3">
+        <div class="contain1">
+            <video autoplay  muted loop class="background-video1">
+                <source
+                    src="https://dxaurk9yhilm4.cloudfront.net/wellness.mp4?mtime=20190609070447"
+                    type="video/mp4">
+            </video>
+            <div class="head1">Wellness</div>
+            <div class="info1">
+                Relax and refresh your body and your mind in exquisite <br> surroundings.Escape to our stunning pools, unwined in <br> relaxing spas and explore innovative international <br> culinary offerings.
+            </div>
+            <div class="explore-button">
+                <button>Explore</button>
+            </div>
+            <div class="close-btn">
+                <button (click)="closeVedio3()">X</button>
+            </div>
+        </div>
+    </div>
+
+
+</div>
 
 <app-footer></app-footer>
