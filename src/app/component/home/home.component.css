@@ -1,0 +1,379 @@
+body, html {
+  height: 100vh;
+  margin: 0;
+}
+
+.header-container {
+  height: 100vh;
+  width: 100vw;
+}
+
+.header-container .background-video {
+  width: 101%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: -1%;
+}
+
+.header-container .text {
+  width: 70%;
+  margin-left: 20%;
+  color: #FFFFFF;
+  font-size: 75px;
+  position: relative;
+  bottom: 70%;
+  font: 70.016px gt-sectra;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.header-container .text2 {
+  width: 70%;
+  margin-left: 14%;
+  color: #FFFFFFA6;
+  font-size: 75px;
+  position: relative;
+  bottom: 66%;
+  font: 19px gt-sectra;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 50;
+}
+
+.section-container {
+  padding-top: 200px;
+  padding-left: 150px;
+  padding-right: 220px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: -788px;
+  background-image: url(../../../assets/Home_bg.jpg);
+  background-repeat: no-repeat;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-position: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  opacity: 0.7;
+  margin-top: -703px;
+}
+
+.section-container .section-container .sec-img1 p {
+  color: #000;
+  padding-left: 100px;
+  padding-right: 350px;
+  padding-top: 100px;
+}
+
+.section-container .section-container .sec-img1 .heading {
+  opacity: 80%;
+  font-size: 2em;
+  line-height: 1.2;
+  font-size: xx-large;
+}
+
+.section-container .heading {
+  font-size: xxx-large;
+  margin-top: -60px;
+}
+
+.section-container .section-container .sec-img1 .content {
+  font-size: 2em;
+  line-height: 1.5;
+  opacity: 60%;
+  padding-top: 50px;
+  margin-right: -320px;
+}
+
+.sec-img2 img {
+  position: relative;
+  float: left;
+  margin-top: -170px;
+  margin-left: 140px;
+  width: 450px;
+}
+
+.lands-discovery-container {
+  height: 150vh;
+  width: 100vw;
+  padding: 10% 0;
+  padding-bottom: 0%;
+  background-color: #f3f3f3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.lands-discovery-container .lands-discovery-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-left: 10%;
+  height: 30%;
+}
+
+.lands-discovery-container .lands-discovery-heading {
+  font-size: 3em;
+  font-family: ui-serif;
+  color: #000;
+}
+
+.lands-discovery-container .lands-discovery-para {
+  color: #777777;
+  font-size: 15px;
+  line-height: 1.9;
+}
+
+.lands-discovery-container .lands-discovery-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.lands-discovery-container .link {
+  padding-right: 4%;
+  font-size: 1.2em;
+  font-weight: 400;
+}
+
+.earth-container {
+  height: 100%;
+  width: 100%;
+  background-color: #f3f3f3;
+  margin-top: -755px;
+}
+
+.earth-container .earth-background {
+  height: 100%;
+  width: 67%;
+  margin-top: 65px;
+}
+
+.earth-container .img-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  color: white;
+  margin-top: -71px;
+}
+
+.earth-container .img-content {
+  width: 33.33%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.earth-container #img-experience {
+  background-image: url(../../../assets/cards/golf.jpg);
+  background-size: cover;
+}
+
+.earth-container #img-lifestyle {
+  background-image: url(../../../assets/cards/lifestyle.jpg);
+  background-size: cover;
+}
+
+.earth-container #img-wellness {
+  background-image: url(../../../assets/cards/wellness.jpg);
+  background-size: cover;
+}
+
+.earth-container .img-txt {
+  font-size: 3em;
+}
+
+.earth-container #bg_card {
+  height: 35%;
+  width: 50%;
+  background-color: #000;
+  position: absolute;
+  right: 0;
+  z-index: 20;
+  padding-top: 220px;
+  top: 2920px;
+  left: 50%;
+}
+
+.earth-container #card-img {
+  height: 500px;
+  width: 270px;
+  position: absolute;
+  padding-left: 1030px;
+  z-index: 30;
+  top: 2860px;
+}
+
+.earth-container .arrow {
+  color: white;
+  padding: 30px;
+}
+
+.earth-container .hub-air {
+  color: white;
+  padding-left: 35px;
+}
+
+.earth-container .card-title {
+  color: white;
+  padding: 35px;
+  font-size: 40px;
+  margin-left: -20px;
+  font-family: serif;
+}
+
+.earth-container .card-sub {
+  color: white;
+  padding-top: 100px;
+  padding-left: 35px;
+  font-size: 20px;
+  margin-left: -20px;
+  font-family: serif;
+  opacity: 0.6;
+}
+
+.earth-container .material-icons {
+  padding-right: 25px;
+  font-size: 30px;
+}
+
+.earth-container .units {
+  color: white;
+  margin-top: 2px;
+  word-spacing: 15px;
+  margin-left: 34px;
+  font-size: smaller;
+}
+
+.earth-container .room-text {
+  margin-left: 46px;
+  margin-top: -34px;
+  font-size: 15px;
+  opacity: 0.5;
+  word-spacing: 2px;
+}
+
+.earth-container .button {
+  margin-top: -41px;
+  width: 50px;
+  height: 27px;
+  opacity: 0;
+}
+
+.img-btn-container {
+  height: 55px;
+  width: 55px;
+  border: 1px solid white;
+  border-radius: 50%;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 31px;
+}
+
+.img-btn-container .img-btn, .img-btn-container .img-btn:hover {
+  text-decoration: none;
+  color: white;
+  font-size: 2rem;
+  margin-top: 7px;
+}
+
+.slider-container {
+  height: 80%;
+  width: 100%;
+  margin-top: 110px;
+}
+
+.title {
+  opacity: 80%;
+  font-size: 40px;
+  padding-left: 187px;
+  margin-top: 160px;
+  font-weight: 1;
+}
+
+.contain1 {
+  width: 101%;
+  height: 93vh;
+}
+
+.contain1 .background-video1 {
+  width: 101%;
+  height: 93vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: -1%;
+  -webkit-filter: brightness(0.5);
+          filter: brightness(0.5);
+}
+
+.contain1 .info1 {
+  font-size: 17px;
+  line-height: 2;
+  font-family: ui-serif;
+  color: white;
+  margin-top: -333px;
+  position: absolute;
+  margin-left: 130px;
+}
+
+.contain1 .head1 {
+  color: white;
+  font-size: 40px;
+  margin-top: -415px;
+  margin-left: 130px;
+  font-size: 40px;
+  position: absolute;
+}
+
+.contain1 .explore-button {
+  margin-top: -110px;
+  margin-left: 130px;
+  position: absolute;
+  padding: 22px 55px;
+  background-color: #000;
+  color: #FFFFFF;
+  border: 0px solid white;
+  cursor: pointer;
+  opacity: 40%;
+}
+
+.contain1 .close-btn {
+  color: white;
+  position: absolute;
+  margin-top: -580px;
+  margin-left: 1250px;
+  background-color: #000;
+}
+/*# sourceMappingURL=home.component.css.map */

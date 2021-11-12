@@ -1,0 +1,15 @@
+$colors: (
+  text1-colour: #FFFFFF,
+  text2-colour: #FFFFFFA6,
+  black-colour: #000,
+  white-colour: white,
+  bg-colour: #f3f3f3,
+  para-colour: #777777,
+
+);
+
+@function colour($colour-name){
+    @return map-get($colors, $colour-name )
+}
+
+$font-type: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
