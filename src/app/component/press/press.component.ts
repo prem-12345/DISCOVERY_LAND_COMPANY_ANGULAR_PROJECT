@@ -12,4 +12,6 @@ export class PressComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  
+
 }

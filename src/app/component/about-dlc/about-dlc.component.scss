@@ -1,6 +1,28 @@
-@import "dlc-variables";
-@import "dlc-mixin";
 
+$colors: (
+  text1-colour: #FFFFFF,
+  text2-colour: #FFFFFFA6,
+  para-colour: #111111,
+  black-colour: #000,
+  white-colour: white,
+  btn-colour: #fff,
+  footer-colour:#161F1E
+
+);
+
+@function colour($colour-name){
+    @return map-get($colors, $colour-name )
+}
+
+@mixin container-property {
+        height: 100vh;
+        width: 100vw;
+}
+    
+@mixin flex-property($content) {
+        display: flex;
+        justify-content: $content;
+}
 
 .dlc-container{
     @include container-property;    

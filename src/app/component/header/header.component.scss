@@ -97,3 +97,8 @@ a{
     font-family: -webkit-body;
 }
 
+.data:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+}
